@@ -1,3 +1,4 @@
+import 'package:first_app/week3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,69 +17,6 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: MyWidget(),
-    );
-  }
-}
-
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        //title: Text('Layout', style: TextStyle(color: Colors.white)),
-        //backgroundColor: Colors.purple,
-      ), // AppBar
-
-      body: Center(
-        child: Stack(
-          alignment: AlignmentDirectional.center,
-          children: [
-            Container(
-              height: 300,
-              width: 120,
-              decoration: BoxDecoration(
-                color: Colors.black,
-                borderRadius: BorderRadius.circular(20),
-              ),
-            ),
-
-            Positioned(
-              top: 10,
-              right: 20,
-              child: Container(
-                height: 80,
-                width: 80,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Colors.red,
-                ),
-              ),
-            ),
-            Container(
-              height: 80,
-              width: 80,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: Colors.yellow,
-              ),
-            ),
-            Positioned(
-              top: 210,
-              right: 20,
-              child: Container(
-                height: 80,
-                width: 80,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Colors.green,
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
     );
   }
 }
