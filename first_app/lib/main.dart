@@ -6,7 +6,9 @@ import 'package:first_app/counter_widget.dart';
 import 'package:first_app/greeting_widget.dart';
 import 'package:first_app/navigation_example/first_page.dart';
 import 'package:first_app/navigation_example/second_page.dart';
+import 'package:first_app/page/setting_page.dart';
 import 'package:first_app/page/simple_custom_widget.dart';
+import 'package:first_app/page/traffic_light_animation.dart';
 import 'package:first_app/week3.dart';
 import 'package:flutter/material.dart';
 
@@ -17,10 +19,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleCustomWidget(),
+      home: TrafficLightPage(),
     );
   }
 }

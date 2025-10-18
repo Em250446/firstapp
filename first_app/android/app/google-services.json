@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124202352719",
+    "project_id": "mobile-mini-project-bb68b",
+    "storage_bucket": "mobile-mini-project-bb68b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124202352719:android:4958e4841901ca0dbb6a3a",
+        "android_client_info": {
+          "package_name": "com.example.firebase_mini_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzlLQDqi9AFNUt7c44gj4thc8SzmxUoy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124202352719:android:76069326c506efeabb6a3a",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzlLQDqi9AFNUt7c44gj4thc8SzmxUoy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
